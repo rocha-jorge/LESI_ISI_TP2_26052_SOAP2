@@ -1,0 +1,1 @@
+<%@ ServiceHost Language = "C#" Debug="true" Service="LESI_PW_Lab1_26052_SOAP2.UserBalanceSOAPService" %>
