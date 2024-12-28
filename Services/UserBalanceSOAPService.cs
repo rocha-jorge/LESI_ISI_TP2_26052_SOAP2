@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Data.SqlClient;
 using System.Configuration;
-using LESI_PW_Lab1_26052_SOAP2.Services;
+using LESI_ISI_TP2_26052_SOAP2;
 
-namespace LESI_PW_Lab1_26052_SOAP2
+namespace LESI_ISI_TP2_26052_SOAP2
 {
     public class UserBalanceSOAPService : IUserBalanceSOAPService
     {
@@ -17,7 +17,6 @@ namespace LESI_PW_Lab1_26052_SOAP2
                 using (var command = new SqlCommand(query, connection))
                 {
                     command.Parameters.AddWithValue("@idUser", idUser);
-                    command.ExecuteNonQuery();
 
                     var result = command.ExecuteScalar();
                     if (result != DBNull.Value)

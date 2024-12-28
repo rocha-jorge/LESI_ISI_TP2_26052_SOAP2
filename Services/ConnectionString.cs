@@ -5,7 +5,7 @@ using System.Linq;
 using System.Reflection;
 using System.Web;
 
-namespace LESI_PW_Lab1_26052_SOAP2.Services
+namespace LESI_ISI_TP2_26052_SOAP2
 {
     public class BitcoinDatabase
     {

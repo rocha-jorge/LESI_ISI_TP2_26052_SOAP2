@@ -62,7 +62,9 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="UserBalanceSOAPService.svc" />
+    <Content Include="UserBalanceSOAPService.svc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -73,6 +75,7 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <None Include="Properties\PublishProfiles\BitcoinAppSOAP - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
