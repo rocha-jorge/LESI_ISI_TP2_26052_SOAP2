@@ -4,5 +4,7 @@
 
 /.vs
 /bin
-/obj/Debug
-/LESI_PW_Lab1_26052_SOAP2.csproj.user
+/obj
+*csproj.user
+BitcoinApp.zip
+SOAP.zip
